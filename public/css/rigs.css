@@ -1,0 +1,107 @@
+.card{
+    box-shadow: 2px 2px 8px #5d5d5d;
+    position: relative;
+}
+
+.card-img-top{
+    padding-top: 15px;
+    width: 56%;
+    align-self: center;
+}
+.dropdown-master{
+    margin-right: 1px;
+}
+h1{
+    text-shadow: 2px 2px #585858;
+    text-align: center;
+    font-size: 35px;
+    width: 478px;
+    color: white;
+    padding-top: 27px;
+    padding-left: 6px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+main .dropdown{
+    padding-top: 28px;
+    padding-right: 0.8rem;
+    padding-bottom: 4px;
+}
+main .dropdown .btn{
+    width: 113px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+main .dropdown a{
+    padding-left: 10px;
+}
+
+main .dropdown a:hover{
+    text-decoration: none;
+}
+
+.outer-shell{
+    padding-left: 10px;
+
+}
+main h1{
+    padding-left: 0;
+}
+
+@media (max-width: 767.98px){
+    .dropdown-master {
+        margin-right: 10px;
+        margin-left: 4px;
+    }
+}
+
+@media (max-width: 575.98px){
+    .card{
+        margin-left: 5.5vw;
+        margin-right: 5.5vw;
+    }
+
+}
+
+@media (min-width: 576px){
+    h1{
+        text-align: left;
+    }
+    main .dropdown{
+        padding-right: 1.2rem;
+    }
+    .card{
+        height: 58vw;
+    }
+    .card-body{
+        position: absolute;
+        bottom: 0;
+    }
+
+}
+
+@media (min-width: 768px){
+    .card{
+        height: 41vw;
+    }
+}
+
+@media (min-width: 992px){
+    .card{
+        height: 35vw;
+    }
+}
+
+@media (min-width: 1200px){
+    .card{
+        height: 430px;
+    }
+}
+
+@media (min-width: 1200px){
+    .card{
+        height: 450px;
+    }
+}
+
